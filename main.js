@@ -394,7 +394,7 @@ function wg_generate(){
     var wg_rfm = 64 - (20 * (wg_height/wg_waist));
     document.getElementById('rfmm').innerHTML = wg_rfm.toFixed(1) +"%" ;
   }
-  else if(fl_gender === "Female")
+  else if(wg_gender === "Female")
   {
     var wg_rfm = 76 - (20 * (wg_height/wg_waist));
     document.getElementById('rfmm').innerHTML = wg_rfm.toFixed(1) +"%" ;
